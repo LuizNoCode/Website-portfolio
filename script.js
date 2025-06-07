@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+  
   const links = document.querySelectorAll("nav a");
   links.forEach(link => {
     link.addEventListener("click", function () {
@@ -19,6 +20,11 @@ document.addEventListener("DOMContentLoaded", () => {
       texto: "LinkedIn",
       url: "https://www.linkedin.com/in/luiz-felipe-siqueira-gonçalves",
       cor: "#b0c4de"
+    },
+    {
+      texto: "GitHub",
+      url: "https://github.com/LuizNoCode",
+      cor: "#d6eaf8"
     }
   ];
 
